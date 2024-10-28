@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Cargar el dataset
-data = pd.read_csv('csv/CarPrice_Assignment.csv')  # Cambia esta ruta al archivo correspondiente
+data = pd.read_csv('CarPrice_Assignment.csv')  # Cambia esta ruta al archivo correspondiente
 print(data.head())  # Para ver las primeras filas del dataset
 
 # Preprocesamiento de datos
